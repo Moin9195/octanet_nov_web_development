@@ -1,0 +1,130 @@
+body {
+    font-family: sans-serif;
+}
+
+#app {
+    margin: 20px;
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.task-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#taskInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.select-group,
+.priority-group,
+.due-date-group {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+label {
+    width: 50px;
+}
+
+select {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="date"] {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#addTaskButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.task-list {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.task-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.task-description {
+    font-weight: bold;
+}
+
+.task-details {
+    font-style: italic;
+    color: #999;
+}
+
+.task-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-button,
+.delete-button {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.edit-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.edit-form select {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.edit-form input[type="date"] {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.edit-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-form #updateTaskButton {
+    margin-right: 10px;
+}
